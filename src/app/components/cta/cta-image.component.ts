@@ -1,11 +1,26 @@
 import { AfterViewInit, Component, ElementRef, Input, ViewChild } from '@angular/core';
-import { ICtaImage } from "../../models/data.model";
-import { CtaService } from "../cta.service";
+import { ICtaImage } from "../../data.model";
+import { CtaService } from "./cta.service";
 
 @Component({
   selector: 'app-cta-image',
-  templateUrl: './cta-image.component.html',
-  styleUrls: ['./cta-image.component.scss']
+  template: `
+    <section #cta class="relative">
+
+      <picture>
+        <source [srcset]="desktopImageUrl" media="(min-width: 600px)">
+        <img class="w-full" [src]="mobileImageUrl" [alt]="data.alt">
+      </picture>
+
+      <div class="absolute text-center bottom-16 px-4">
+        <div class="flex flex-col gap-6 items-center">
+          <h2 class="font-serif text-2xl xl:text-[2rem] font-boldest">{{ data.title }}</h2>
+          <p class="sm:w-7/10 xl:w-3/5 xl:text-xl">{{ data.description }}</p>
+        </div>
+      </div>
+
+    </section>
+  `
 })
 export class CtaImageComponent implements AfterViewInit {
 

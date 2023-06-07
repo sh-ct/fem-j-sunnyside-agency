@@ -2,8 +2,14 @@ import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-image-gallery-row',
-  templateUrl: './image-gallery-row.component.html',
-  styleUrls: ['./image-gallery-row.component.scss']
+  template: `
+    <div class="flex flex-wrap">
+      <picture class="flex-grow flex-shrink basis-1/2 sm:basis-1/4" *ngFor="let image of images">
+        <source [srcset]="getDesktopImageUrl(image)" media="(min-width: 600px)">
+        <img [src]="getMobileImageUrl(image)" alt="">
+      </picture>
+    </div>
+  `
 })
 export class ImageGalleryRowComponent {
 
