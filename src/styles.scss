@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .flex-fluid-split {
+    @apply flex-grow flex-shrink basis-full sm:basis-1/2;
+  }
+}
