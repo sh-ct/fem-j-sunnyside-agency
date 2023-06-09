@@ -27,7 +27,7 @@ import { Component } from '@angular/core';
                   <path d="M24 16v2H0v-2h24zm0-8v2H0V8h24zm0-8v2H0V0h24z" fill="#FFF" fill-rule="evenodd"/>
               </svg>
           </button>
-          <div id="menu" class="hidden absolute top-20 left-0 right-0 bg-white font-neutral-800">
+          <div id="menu" class="hidden absolute z-10 top-20 left-0 right-0 bg-white font-neutral-800">
               <svg width="30" height="30" viewBox="0 0 30 30" class="absolute right-0 -top-7">
                   <polygon class="fill-white" points="30 0, 30 30, 0 30"/>
               </svg>
