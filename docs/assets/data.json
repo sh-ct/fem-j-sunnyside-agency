@@ -1,0 +1,61 @@
+{
+  "ctaRows": [
+    {
+      "image": "image-transform.jpg",
+      "alt": "Image of an egg on a bright yellow background",
+      "title": "Transform your brand",
+      "description": "We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.",
+      "url": "#",
+      "highlight": "#fad400",
+      "reverse": true
+    },
+    {
+      "image": "image-stand-out.jpg",
+      "alt": "Image of a pastel red wine glass on a pastel red background lit from the left",
+      "title": "Stand out to the right audience",
+      "description": "Using a collaborative formula of designers, researchers, photographers, videographers and copywriters, we'll build and extend your brand in digital places",
+      "url": "#",
+      "highlight": "#fe7867",
+      "reverse": false
+    }
+  ],
+  "ctaImages": [
+    {
+      "image": "image-graphic-design.jpg",
+      "alt": "two cherries with stems, on a light teal background",
+      "title": "Graphic Design",
+      "description": "Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients' attention.",
+      "textColor": "#25564b"
+    },
+    {
+      "image": "image-photography.jpg",
+      "alt": "Orange with stem and leaf on a pastel blue background",
+      "title": "Photography",
+      "description": "Increase your credibility by getting the most stunning, high-quality photos that improve your business image.",
+      "textColor": "#19536b"
+    }
+  ],
+  "testimonials": [
+    {
+      "image": "image-emily.jpg",
+      "alt": "image of Emily R.",
+      "name": "Emily R.",
+      "role": "Marketing Director",
+      "bio": "We put out trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit."
+    },
+    {
+      "image": "image-thomas.jpg",
+      "alt": "image of Thomas S.",
+      "name": "Thomas S.",
+      "role": "Chief Operating Officer",
+      "bio": "Sunnyside's enthusiasm coupled with their keen interest in our brand's success made it a satisfying and enjoyable experience."
+    },
+    {
+      "image": "image-jennie.jpg",
+      "alt": "image of Jennie F.",
+      "name": "Jennie F.",
+      "role": "Business Owner",
+      "bio": "Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!"
+    }
+  ]
+}
