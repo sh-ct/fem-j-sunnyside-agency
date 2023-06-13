@@ -16,11 +16,11 @@ export class ImageGalleryRowComponent {
   @Input() images: string[];
 
   getMobileImageUrl(image: string): string {
-    return `../../assets/images/mobile/${image}`;
+    return `assets/images/mobile/${image}`;
   }
 
   getDesktopImageUrl(image: string): string {
-    return `../../assets/images/desktop/${image}`;
+    return `assets/images/desktop/${image}`;
   }
 
 }

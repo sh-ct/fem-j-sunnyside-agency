@@ -18,8 +18,8 @@ import { IData } from "../data.model";
       </div>
 
       <picture>
-          <source srcset="../../assets/images/desktop/image-header.jpg" media="(min-width: 600px)">
-          <img src="../../assets/images/mobile/image-header.jpg" alt="Semicircle image of an orange slice on a bright blue background">
+          <source srcset="assets/images/desktop/image-header.jpg" media="(min-width: 600px)">
+          <img src="assets/images/mobile/image-header.jpg" alt="Semicircle image of an orange slice on a bright blue background">
       </picture>
 
       <app-cta-row *ngFor="let ctaRow of data.ctaRows" [data]="ctaRow" [reverse]="ctaRow.reverse"></app-cta-row>

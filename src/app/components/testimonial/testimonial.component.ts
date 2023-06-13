@@ -27,7 +27,7 @@ export class TestimonialComponent {
   @Input() data: ITestimonial;
 
   get imageUrl(): string {
-    return `../../assets/images/${this.data.image}`;
+    return `assets/images/${this.data.image}`;
   }
 
 }
