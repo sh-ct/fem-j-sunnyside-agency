@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
 })
 export class CtaService {
 
-  imageDirectory = '../../../assets/images/';
+  imageDirectory = 'assets/images/';
 
   constructor() { }
 
